@@ -1,0 +1,202 @@
+
+/* Header Styles */
+#siteTitle:link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 4.5rem;
+  max-width: 32rem;
+  color: #beb18e;
+  padding-bottom: 0.5rem;
+}
+#siteTitle:link {
+  color: #beb18e;
+  border-bottom: solid 3px transparent;
+  -webkit-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+     -moz-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+      -ms-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+       -o-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+          transition: color .3s ease-out, border-bottom-color .3s ease-out;
+  text-decoration: none;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+#siteTitle:visited {
+  color: #beb18e;
+}
+#siteTitle:hover {
+  border-bottom: solid 6px #beb18e;
+}
+
+#tagline {
+  text-align: center;
+  margin: 0 auto;
+  clear: none;
+}
+
+.widget-title {
+    display: none;
+}
+
+#media_image-3 img {
+  float: left;
+  width: 16.5rem !important;
+  height: 16.5rem !important;
+  object-fit: cover;
+}
+
+#media_image-2 img {
+  float: right;
+  width: 16.5rem !important;
+  height: 16.5rem !important;
+  object-fit: cover;
+}
+#site-navigation {
+  clear: both;
+  padding: .7rem 0 .7rem 0;
+  background-color: #252527;
+}
+.menu-item {
+  position: relative;
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+.menu li a:link {
+  color: #beb18e;
+  border-bottom: solid 3px transparent;
+  -webkit-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+     -moz-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+      -ms-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+       -o-transition: color .3s ease-out, border-bottom-color .3s ease-out;
+          transition: color .3s ease-out, border-bottom-color .3s ease-out;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+.menu li a:visited {
+  color: #beb18e;
+}
+.menu li a:hover {
+  color: #fff;
+  border-bottom: solid 3px #beb18e;
+}
+
+#noTop {
+    clear: none;
+}
+
+ul#primary-menu {
+    width: 53rem;
+    margin: 0 auto;
+}
+
+button.menu-toggle {
+    background: url(http://bayofquintehomes.ca/wp-content/uploads/2020/03/menu-icon-08.png) no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    height: 3.5rem;
+    width: 5rem;
+    border: none !important;
+    border-radius: 0 !important;
+    position: relative;
+    top: -.6rem;
+    font-size: 0;
+    /* margin: 1rem auto 0 auto; */
+    margin: 1rem;
+    float: left;
+}
+
+@media screen and (min-width: 1340px) {
+
+  #siteTitle:link {
+    max-width: 50rem;
+    margin: 3rem auto 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  ul#primary-menu {
+    float: left;
+    width: 15%;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin: 0 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    #siteTitle:link {
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+
+    #tagline {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+
+    #media_image-2 img,
+    #media_image-3 img {
+        display: none;
+    }
+
+    #tagline {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+  ul#primary-menu {
+    width: 22%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  ul#primary-menu {
+    width: 27%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  #tagline {
+    margin: 1rem 2rem;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  ul#primary-menu {
+    width: 37%;
+  }
+
+  #siteTitle:link {
+    margin: 0 2rem;
+    line-height: 3.25rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  #siteTitle:link {
+    font-size: 2.5rem;
+  }
+
+}
